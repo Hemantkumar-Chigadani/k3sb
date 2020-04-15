@@ -12,7 +12,7 @@ it very simple to deploy and understand. This tool exact fit to Edge environment
 for now and hybrid/pure cloud environment for future. 
 
 K3S is very trimmed version of K8S as light weight as possible and keeping to 
-open to add as much you need more k8s application later. K3S is certified 
+open to add as much you need more k8s applications later. K3S is certified 
 Kubernetes distribution by cloud native foundation (CNCF).
 
 Other important benefits:
@@ -27,9 +27,9 @@ and assemble only core required parts.]
 
 ## Building Cluster:
 Any dev could be able to build or upgrade or add more master/worker nodes if need once 
-machine is accessed from your local machine. If you shh key is password protected, make 
+machine is accessed from your local machine. If your shh key is password protected, make 
 sure you refer to `Note` to make appropriate update to `bootstrap.sh` to enable ssh connection 
-to remote machine to be added to cluster.
+to remote machine to be added to the cluster.
 
 1) First master node\
 `./bootstrap.sh first master <ip-address/192.168.64.5>`
